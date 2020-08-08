@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
+title: 'Hello, my name is'
+name: 'Peter Ferguson'
+subtitle: 'A Mathemathical Physicist tackling ML Problems.'
 buttonText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
+I'm a Mathematical Physicist by training, data scientist by trade. I'm based in Belfast, UK.
