@@ -1,8 +1,10 @@
 import { hex2rgba } from '@utils';
 
-const ACCENT = '#64ffda';
+// const ACCENT = '#64ffda';
+const ACCENT = '#0781ff';
 const DARK_BG = '#020c1b';
 const BG = '#0a192f';
+// const BG = '#282833';
 
 const theme = {
   colors: {
@@ -17,6 +19,12 @@ const theme = {
     green: ACCENT,
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),
+    atomGreen: '#52e3c2',
+    atomRed: '#ff4495',
+    atomBlue: '#0781ff',
+    atomYellow: '#ffd900',
+    atomGold: '#efb068',
+    atomNavy: '#282833',
   },
 
   fonts: {

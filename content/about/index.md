@@ -12,8 +12,12 @@ skills:
 
 Hello! I'm Peter, a data scientist based in Belfast, UK.
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+I have attained masters degrees in Mathematics & Theorectical Physics from [University of Cambrige](https://www.cam.ac.uk/) and [Lancaster University](https://www.lancaster.ac.uk/).
 
-Shortly after graduating from [University of Cambrige](https://www.cam.ac.uk/), I joined the data science team at [SimplyIOA](https://www.simplyioa.com/) where I work on a wide variety of data projects ranging from ETLs to ML on a daily basis.
+After graduating from [University of Cambrige](https://www.cam.ac.uk/), I decided to take some time away from academia, passing up a PhD offer to work in String Theory.
+
+I joined the data science team at [SimplyIOA](https://www.simplyioa.com/) where I work on everything data.
+
+Projects range from ETLs using internal and external sources to ML projects, such as, record linkage, retention modelling & pdf table extraction on a daily basis.
 
 Here are a few technologies I've been working with recently:
