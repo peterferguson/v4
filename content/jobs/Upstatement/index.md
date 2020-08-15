@@ -1,10 +1,10 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2018-08-21'
+title: 'Data Scientist / Engineer'
+company: 'SimplyIOA'
+location: 'Belfast, UK'
+range: 'October 2018 - Present'
+url: 'https://www.simplyioa.com/'
 ---
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects

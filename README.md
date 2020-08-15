@@ -75,13 +75,34 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
 ## 🎨 Color Reference
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Color              | Hex                                                                |
+| ------------------ | ------------------------------------------------------------------ |
+| Navy               | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
+| Light Navy         | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
+| Lightest Navy      | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
+| Slate              | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
+| Light Slate        | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
+| Lightest Slate     | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
+| White              | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
+| Green              | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| atom-red           | ![#ff4495](https://via.placeholder.com/10/ff4495?text=+) `#ff4495` |
+| atom-green         | ![#52e3c2](https://via.placeholder.com/10/52e3c2?text=+) `#52e3c2` |
+| atom-blue          | ![#0781ff](https://via.placeholder.com/10/0781ff?text=+) `#0781ff` |
+| atom-purple        | ![#d211fe](https://via.placeholder.com/10/d211fe?text=+) `#d211fe` |
+| atom-bright-orange | ![#ff4b12](https://via.placeholder.com/10/ff4b12?text=+) `#ff4b12` |
+| atom-yellow        | ![#ffd900](https://via.placeholder.com/10/ffd900?text=+) `#ffd900` |
+| atom-orange        | ![#ed8a19](https://via.placeholder.com/10/ed8a19?text=+) `#ed8a19` |
+| atom-light-blue    | ![#40c4ff](https://via.placeholder.com/10/40c4ff?text=+) `#40c4ff` |
+| atom-gray          | ![#546e7a](https://via.placeholder.com/10/546e7a?text=+) `#546e7a` |
+| atom-gold          | ![#efb068](https://via.placeholder.com/10/efb068?text=+) `#efb068` |
+| atom-light-gold    | ![#ffebb7](https://via.placeholder.com/10/ffebb7?text=+) `#ffebb7` |
+| atom-brand-0       | ![#1a1a21](https://via.placeholder.com/10/1a1a21?text=+) `#1a1a21` |
+| atom-brand-1       | ![#282833](https://via.placeholder.com/10/282833?text=+) `#282833` |
+| atom-brand-2       | ![#32323e](https://via.placeholder.com/10/32323e?text=+) `#32323e` |
+| atom-brand-3       | ![#393945](https://via.placeholder.com/10/393945?text=+) `#393945` |
+| atom-brand-4       | ![#40424f](https://via.placeholder.com/10/40424f?text=+) `#40424f` |
+| atom-brand-5       | ![#4d505f](https://via.placeholder.com/10/4d505f?text=+) `#4d505f` |
+| atom-brand-6       | ![#6e7288](https://via.placeholder.com/10/6e7288?text=+) `#6e7288` |
+| atom-brand-7       | ![#8f94ab](https://via.placeholder.com/10/8f94ab?text=+) `#8f94ab` |
+| atom-brand-8       | ![#b4b8cd](https://via.placeholder.com/10/b4b8cd?text=+) `#b4b8cd` |
+| atom-contrast      | ![#fff](https://via.placeholder.com/10/fff?text=+)`#fff`           |

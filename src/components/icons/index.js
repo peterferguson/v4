@@ -1,5 +1,4 @@
 export { default as IconAppStore } from './appstore';
-export { default as IconCodepen } from './codepen';
 export { default as IconExternal } from './external';
 export { default as IconFolder } from './folder';
 export { default as IconFork } from './fork';
@@ -11,6 +10,7 @@ export { default as IconLoader } from './loader';
 export { default as IconLocation } from './location';
 export { default as IconLogo } from './logo';
 export { default as IconPlayStore } from './playstore';
+export { default as IconQuora } from './quora';
 export { default as IconStar } from './star';
 export { default as IconTwitter } from './twitter';
 export { default as IconZap } from './zap';

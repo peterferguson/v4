@@ -1,38 +1,30 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Peter Ferguson | Data Scientist',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Peter Ferguson is a data scientist based in Belfast, UK who trained as a mathematical physicist but is now learning the ways of machine & deep learning.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
-  siteLanguage: 'en_US',
+    'Peter Ferguson, Peter, Ferguson, peterferguson95, data scientist, machine learning engineer, lancaster, python, cambridge, physics, maths, mathematics, mathematics for data science, mathematics for machine learning, deep learning, mathematics for deep learning',
+  siteUrl: 'https://peterferguson.co.uk',
+  siteLanguage: 'en_GB',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
+  name: 'Peter Ferguson',
+  location: 'Belfast, UK',
+  email: 'peterferguson95@gmail.com',
   github: 'https://github.com/bchiang7',
   twitterHandle: '@bchiang7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/peterferguson',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/peter-ferguson-2041189b/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Quora',
+      url: 'https://www.quora.com/profile/Peter-Ferguson-9',
     },
   ],
 
@@ -61,6 +53,12 @@ module.exports = {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
+    atomGreen: '#52e3c2',
+    atomRed: '#ff4495',
+    atomBlue: '#0781ff',
+    atomYellow: '#ffd900',
+    atomGold: '#efb068',
+    atomNavy: '#282833',
   },
 
   srConfig: (delay = 200) => ({
