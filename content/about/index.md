@@ -17,7 +17,7 @@ I then embarked on what is widely considered one of the most difficult mathemati
 
 Shortly after graduating from the [University of Cambrige](https://www.cam.ac.uk/), I decided to take some time away from academia, passing up an offer for a PhD programme studying the geometry of String Theory.
 
-I quickly became interested in ML problems & I began looking for work as a Data Scientist. I joined the team at [SimplyIOA](https://www.simplyioa.com/) where I work on everything data.My projects have included everything from ETLs & automation to ML projects, such as, record linkage, retention modelling & pdf information extraction.
+I quickly became interested in ML problems & I began looking for work as a Data Scientist. I joined the team at [SimplyIOA](https://www.simplyioa.com/) where I work on everything data. My projects have included everything from ETLs & automation to ML projects, such as: record linkage, retention modelling & pdf information extraction.
 
 My goal is to become a machine/deep learning researcher. This website will serve as both a personal portfolio and also a place for me to share my notes and findings along the journey.
 
