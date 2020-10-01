@@ -11,7 +11,7 @@ module.exports = {
   location: 'Belfast, UK',
   email: 'peterferguson95@gmail.com',
   github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  twitterHandle: '',
   socialMedia: [
     {
       name: 'GitHub',
@@ -39,6 +39,10 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Notes',
+      url: '/notes',
     },
     {
       name: 'Contact',

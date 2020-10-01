@@ -1,13 +1,12 @@
 ---
-date: '2020-01-10'
+date: '2020-01-01'
 title: 'Placeholder Project'
 github: ("dummmy content")
 external: ("dummmy content")
 ios: ("dummmy content")
 android: ("dummmy content")
 tech:
-  - Python
-  - SQL
+  - ''
 company: ''
 showInProjects: true
 ---
