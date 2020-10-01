@@ -2,6 +2,7 @@
 date: '3'
 title: 'Masters Thesis #2 (Part III Essay)'
 cover: './essay.png'
+internal: '/essay.pdf'
 external: 'https://drive.google.com/file/d/1tvUEy8lq-oxNCwv9Oomw8cdH3x6jjpV4/view?usp=sharing'
 tech:
 showInProjects: true

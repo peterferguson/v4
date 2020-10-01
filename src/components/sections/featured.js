@@ -222,14 +222,33 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { internal, external, title, tech, github, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
                   <StyledLabel>Featured Project</StyledLabel>
                   <StyledProjectName>
-                    {external ? (
+                    {/* {internal ? (
+                      <a
+                        href={internal}
+                        target="_self"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="External Link">
+                        {title}
+                      </a>
+                    ) : (
+                      title
+                    )} */}
+                    {internal || external ? (
+                      <a
+                        href={internal}
+                        target="_self"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="Internal Link">
+                        {title}
+                      </a>
+                    ) : (
                       <a
                         href={external}
                         target="_blank"
@@ -237,8 +256,6 @@ const Featured = ({ data }) => {
                         aria-label="External Link">
                         {title}
                       </a>
-                    ) : (
-                      title
                     )}
                   </StyledProjectName>
                   <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
@@ -268,11 +285,19 @@ const Featured = ({ data }) => {
                         <FormattedIcon name="External" />
                       </a>
                     )}
+                    {internal && (
+                      <a
+                        href={internal}
+                        rel="nofollow noopener noreferrer"
+                        aria-label="Internal Link">
+                        <FormattedIcon name="Internal" />
+                      </a>
+                    )}
                   </StyledLinkWrapper>
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : '#'}
+                  href={internal ? internal : external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />

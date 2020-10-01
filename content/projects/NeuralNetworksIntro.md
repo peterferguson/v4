@@ -2,7 +2,7 @@
 date: '2020-01-10'
 title: 'A Mathematicians Guide to Deep Learning Part I: Neural Networks'
 github: ''
-external: '/notes/neural-networks-definition'
+internal: '/notes/neural-networks-definition'
 tech:
   - Markdown
   - Latex

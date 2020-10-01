@@ -3,6 +3,7 @@ date: '2'
 title: 'Masters Thesis #1'
 cover: './lancaster.png'
 external: 'https://drive.google.com/file/d/1JPp7patAPB4yzDyJuEWlxmWbd83NtQe_/view?usp=sharing'
+internal: '/thesis.pdf'
 tech:
 showInProjects: true
 ---
