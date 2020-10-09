@@ -17,6 +17,8 @@ A neural network is a loose imitation of a theory of learning in the brain. The 
 
 Mathematically a neural network can be described as a collection of sequences of functions which when interleaved through composition lead to reparameterisations that 'describe' an increasingly abstract feature of the input.
 
+[Click here for a pdf version](/NeuralNetworks.pdf)
+
 # Introduction
 
 This will be the first in a series of articles that I have written for two reasons. Firstly to solidify my knowledge of the mathematical foundations of the subject. Secondly, I am posting the series online to help those, like myself, who are interested in the mathematics of deep learning but find it hard to know where to start or where to look.
@@ -54,10 +56,10 @@ A schematic representing the mathematical action of the neurons:
 
 $$
 \begin{aligned}
-w_0=b&:\qquad &&\textrm{This bias term represents the threshold for the neuron to fire.}\\
-w_i&:\qquad &&\textrm{These weights represent the strength of the interaction, called synaptic strength.}\\
-x_i&:\qquad &&\textrm{These inputs represent the information from other neurons.}\\
-y&:\qquad &&\textrm{This is the output \& it represents whether or not the neuron has fired.}
+w_0=b&:\quad &&\textrm{This bias term represents the threshold for the neuron to fire.}\\
+w_i&:\quad &&\textrm{These weights represent the strength of the interaction.}\\
+x_i&:\quad &&\textrm{The input representing information from other neurons.}\\
+y&:\quad &&\textrm{The output representing whether or not the neuron has fired.}
 \end{aligned}
 $$
 
