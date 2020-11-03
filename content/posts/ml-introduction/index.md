@@ -19,9 +19,9 @@ ML algorithms, often called learners, learn patterns in a dataset. It is assumed
 
 Since the two above unknowns are unavailable to the learner, we train the learner on a snapshot of data points which we know the label of. The goal of the training is then to tweak the hypothesis function to better approximate the snapshot and hopefully this snapshot is representative of the whole distribution.
 
-Although this article has been written in markdown you can [click here](/ML.pdf) for an unoptimised pdf version.
+Although this article has been written in markdown you can [click here](/ML.pdf) for a pdf version.
 
-Lastly you can also [click here](notes/neural-networks-definition) to get the next article in the series!
+Lastly you can also [click here](neural-networks-definition) to get the next article in the series!
 
 ---
 
@@ -34,6 +34,8 @@ Lastly you can also [click here](notes/neural-networks-definition) to get the ne
   - [Mathematically Stating Machine Learning Problems](#mathematically-stating-machine-learning-problems)
 - [Concluding Remarks](#concluding-remarks)
 - [References](#references)
+  - [I hope you found the article useful](#i-hope-you-found-the-article-useful)
+  - [Click Here for the Next Article in the Series!](#click-here-for-the-next-article-in-the-serieshttpswwwpeterfergusoncouknotesneural-networks-definition)
 
 ---
 
@@ -101,15 +103,8 @@ To learn the patterns that are assumed to arise from this distribution, we defin
 
 That is, the hypothesis $h\in A(S)\subset \mathcal{\Gamma}$, where $A(S)$ is the subset of the function space formed through the choice of algorithm $A$ and training of the learner over the dataset $S$. This training is usually some method of minimisation of a **loss function**
 
-> The loss function is the probability that the hypothesis does not predict the correct label ($y\in\mathcal{Y}$) for a given random data point ($x\in \mathcal{X}$) sampled from the underlying distribution
->
-> $$
-> \begin{aligned}
-> \mathcal{L}_{\mathcal{D}, f}(h)=\mathbb{P}_{x\sim\mathcal{D}}[h(x)\neq f(x)].
-> \end{aligned}
-> $$
->
-> $f$ is considered to be the target function, which always takes a randomly sampled $x\in\mathcal{X}$ to the correct $y\in\mathcal{Y}$.
+> The loss function is the probability that the hypothesis does not predict the correct label $(y\in\mathcal{Y})$ for a given random data point $(x\in \mathcal{X})$ sampled from the underlying distribution
+> $$\mathcal{L}_{\mathcal{D}, f}(h)=\mathbb{P}_{x\sim\mathcal{D}}[h(x)\neq f(x)].$$ > $f$ is considered to be the target function, which always takes a randomly sampled $x\in\mathcal{X}$ to the correct $y\in\mathcal{Y}$.
 
 Essentially, this is the error of incorrect prediction after random sampling from the underlying distribution, which it is important to note that the learner has no knowledge of.
 
@@ -120,8 +115,8 @@ During the training phase of a ML algorithm we provide the learner with a snapsh
 > The training loss of a hypothesis function $h_U: \mathcal{X}\to \mathcal{Y}$ on a given proper subset of the total dataset $U\subset S$ is
 >
 > $$
-> \begin{aligned}
-> \mathcal{L}_{U}(h):=\frac{\Big|\{(u,v)\in U\,|\, h(u)\neq v\}\Big|}{|U|}
+>  \begin{aligned}
+>  \mathcal{L}_{U}(h):=\frac{\Big|\{(u,v)\in U\,|\, h(u)\neq v\}\Big|}{|U|}
 > \end{aligned}
 > $$
 
@@ -148,8 +143,6 @@ In practice, these labels/output points can be categories for the task of predic
 
 The iterative process by which one associates the hypothesis functions is called **training**. In essence it is some minimisation process, generally encapsulated by the term [empirical risk minimisation](https://en.wikipedia.org/wiki/Empirical_risk_minimization). The function that we want to minimise is called a **loss function**, it is simply the probability that the hypothesised label is incorrect. However, due to the fact that the true underlying distribution/target function are not known during training, we use a substitute loss function called the **training loss**. This is a measure of how accurate our predictions were against some subset of the data which we know the labels of, this subset is called the **training dataset**.
 
----
-
 # References
 
 This article is my personal take on some sections from a combination of the following books/papers:
@@ -173,6 +166,5 @@ To connect with me or find more content similar to this article, do the followin
 - Follow my [Medium](https://medium.com/@peterferguson95)
 - Leave a comment!
 - or ...
-<!-- omit in toc -->
 
-## [Click Here for the Next Article in the Series!](https://www.peterferguson.co.uk/notes/neural-networks-definition)
+### [Click Here for the Next Article in the Series!](https://www.peterferguson.co.uk/notes/neural-networks-definition)

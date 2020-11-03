@@ -17,7 +17,7 @@ A neural network is a loose imitation of a theory of learning in the brain. The 
 
 Mathematically a neural network can be described as a collection of sequences of functions which when interleaved through composition lead to reparameterisations that 'describe' an increasingly abstract feature of the input.
 
-Although this article has been written in markdown you can [click here for an unoptimised pdf version](/NeuralNetworks.pdf)
+Although this article has been written in markdown you can [click here for a pdf version](/NeuralNetworks.pdf)
 
 # Introduction
 
